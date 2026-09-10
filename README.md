@@ -21,7 +21,47 @@ The objective is not to rank the companies or identify a universal “winner.”
 The analysis therefore identifies trade-offs rather than producing a composite score or overall ranking.
 
 ## Case Study
+## Repository Contents
 
+```text
+three-digital-business-models/
+│
+├── Three_Digital_Business_Models_Case_Study.pdf
+├── Three Business Model Screenshot.png
+├── src/
+│   └── comparative_analysis.py
+├── .gitignore
+└── README.md
+```
+
+- **Three_Digital_Business_Models_Case_Study.pdf** – Five-page comparative financial analysis case study
+- **Three Business Model Screenshot.png** – Visual preview of the case study
+- **src/comparative_analysis.py** – Public Python implementation of the common-period comparative analysis
+- **README.md** – Project overview and methodology
+
+## Python Analysis Engine
+
+A standalone public version of the comparative analysis engine is included in:
+
+[`src/comparative_analysis.py`](src/comparative_analysis.py)
+
+The script reproduces the core FY2021–FY2025 analysis used in the case study, including:
+
+- Indexed revenue growth
+- Operating margin trends
+- Free cash flow margin trends
+- Common-period margin changes
+- Latest financial-position comparison
+- Balance-sheet comparison
+- Analytical sanity checks
+
+It uses only Python's standard library and does not require any proprietary source datasets.
+
+To run it locally:
+
+```bash
+python src/comparative_analysis.py
+```
 [View the full comparative financial analysis](Three_Digital_Business_Models_Case_Study.pdf)
 
 ## Analysis Includes
