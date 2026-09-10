@@ -1,5 +1,5 @@
 # Three Digital Business Models, One Financial Lens
-
+![Three Digital Business Models Case Study Preview](Three%20Business%20Model%20Screenshot.png)
 ## Overview
 
 This project compares the financial profiles of Microsoft, Adobe and Netflix through a common analytical framework focused on growth, profitability, cash generation and balance-sheet strength.
